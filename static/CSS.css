@@ -1,0 +1,92 @@
+/* General Styles */
+html, body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f4f7fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 40px;
+    background-color: #f5f7fa;
+}
+
+/* Main Title */
+h1 {
+    font-size: 2em;
+    color: #34495e;
+    margin-bottom: 20px;
+}
+
+/* Logs Container */
+#logs {
+    width: 80%;
+    max-width: 800px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+/* Logs Title */
+#logs h2 {
+    font-size: 1.5em;
+    color: #2c3e50;
+    border-bottom: 2px solid #e1e4e8;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+/* Log Entries */
+#logs p {
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    color: #555555;
+    background-color: #ffffff;
+    border-left: 4px solid #e74c3c;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    body {
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    h1 {
+        font-size: 1.6em;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    #logs {
+        width: 90%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    #logs h2 {
+        font-size: 1.3em;
+        text-align: center;
+        margin-bottom: 12px;
+        padding-bottom: 8px; 
+    }
+
+    #logs p {
+        font-size: .9em; 
+        line-height: normal; 
+        padding-left:10px; 
+        padding-right :10px; 
+        word-wrap : break-word; 
+     }
+}
