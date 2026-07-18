@@ -36,31 +36,7 @@ The project demonstrates how lightweight open-source technologies can be integra
 
 ## System Architecture
 
-```
-Incoming Packets
-        │
-        ▼
-Packet Sniffer (Scapy)
-        │
-        ▼
-Firewall Engine
-        │
- ┌──────┼───────────────┐
- │      │               │
- ▼      ▼               ▼
-IDS   DoS Detector   Port Scan Detection
- │      │               │
- └──────┼───────────────┘
-        ▼
-Automatic IP Blocking
-        │
-        ▼
-SQLite + JSON Storage
-        │
-        ▼
-Flask Dashboard
-```
-
+![network traffic flow through a Firewall](system_architecture.png)
 ---
 
 ## Modules
