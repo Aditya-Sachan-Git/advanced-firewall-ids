@@ -87,7 +87,7 @@ The project demonstrates how lightweight open-source technologies can be integra
 Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/advanced-firewall-ids.git
+git clone https://github.com/Aditya-Sachan-Git/advanced-firewall-ids.git
 ```
 
 Install dependencies
